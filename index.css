@@ -157,9 +157,9 @@
     overflow-y: auto;
   }
   .b12{
-    height: 250px;
-    width: 250px;
-    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
     margin-bottom: 30px;
     margin-left: 60px;
     border-radius: 50%;
@@ -170,6 +170,8 @@
   }
   .b1{
     float: none;
+    margin-left: 14%;
+    margin-right: auto;
   }
   .b2{
     float: none;
