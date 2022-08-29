@@ -103,14 +103,35 @@
 
 /*Education Start*/
 #a4{
-  background-image: url(Images/Img\ 6.png);
+  background-image: url(Images/Img5.jpg);
   background-size: cover;
+  display: flex;
+}
+#a4 .E2{
+  flex: auto;
   position: relative;
 }
-.E1{
+#a4 .E1{
+  font-size: 60px;
+  position: relative;
+  left: 90%;
+  top:5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: rgb(207, 249, 249);
+  border-radius: 20px;
+  padding-right: 20px;
+  border: solid 5px #212121;
+  box-shadow: 6px 6px #76d18f ;
+}
 
+#a4 .E1 img{
+height: 90px;
+margin-bottom: -20px;
 }
 /*Education End*/
+
+
   #myVideo {
     position: fixed;
     right: 0;
