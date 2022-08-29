@@ -7,5 +7,11 @@ var typed = new Typed(".typ", {
     backDelay: 500,
 });
 // <!-- typed js effect ends -->
-
  
+
+// <!-- Nav bar color change Start -->
+window.onscroll = () => {
+    const nav = document.querySelector('.nav');
+    if(this.scrollY <= 10) nav.className = ''; else nav.className = '.nav.scroll';
+  };
+// <!-- Nav bar color change End -->
