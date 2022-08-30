@@ -227,6 +227,14 @@ margin-bottom: -20px;
 
 /* Project end*/
 
+/*Work Exp Start*/
+#a7{
+  background-image: url(Images/Img8.png);
+  background-size: cover;
+  display: grid;
+}
+/*Work Exp End*/
+
   #myVideo {
     position: fixed;
     right: 0;
