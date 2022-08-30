@@ -331,7 +331,7 @@ margin-bottom: -30px;
   }
   .b1{
     float: none;
-    margin-left: 10px;
+    margin-left: -10px;
     margin-right: auto;
   }
   .b2{
@@ -356,6 +356,7 @@ margin-bottom: -30px;
   #a5 .P1,#a4 .E1,#a7 .W1{
     width: 350px;
     font-size: 50px;
+    padding: 0;
   }
   #a5 .P2,#a4 .E2,#a7 .W2{
     margin-bottom: 80px;
