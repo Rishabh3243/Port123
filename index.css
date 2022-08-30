@@ -121,6 +121,7 @@
   background-image: url(Images/Img2.jpg);
   background-size: cover;
   display: flex;
+  text-align: center;
 }
 
 .b1{
@@ -249,7 +250,7 @@ margin-bottom: -20px;
 
 #a7 .W1 img{
 height: 90px;
-margin-bottom: -20px;
+margin-bottom: -30px;
 }
 
 #a7 .W2{
@@ -328,7 +329,7 @@ margin-bottom: -20px;
   }
   .b1{
     float: none;
-    margin-left: 14%;
+    margin-left: 10%;
     margin-right: auto;
   }
   .b2{
