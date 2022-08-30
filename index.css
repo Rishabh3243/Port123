@@ -229,9 +229,33 @@ margin-bottom: -20px;
 
 /*Work Exp Start*/
 #a7{
-  background-image: url(Images/Img8.png);
+  background-image: url(Images/Img11.jpg);
   background-size: cover;
   display: grid;
+}
+#a7 .W1{
+  font-size: 60px;
+  position:static;
+  top:5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: rgb(249, 207, 207);
+  border-radius: 20px;
+  padding-right: 20px;
+  border: solid 5px #212121;
+  box-shadow: 6px 6px #d17676 ;
+  width: 600px;
+}
+
+#a7 .W1 img{
+height: 90px;
+margin-bottom: -20px;
+}
+
+#a7 .W2{
+  top: 50px;
+  margin: 25px;
+  margin-bottom: 130px;
 }
 /*Work Exp End*/
 
@@ -325,10 +349,10 @@ margin-bottom: -20px;
     color: #2599c8;
   }
 
-  #a5 .P1,#a4 .E1{
+  #a5 .P1,#a4 .E1,#a7 .W1{
     width: 400px;
   }
-  #a5 .P2,#a4 .E2{
+  #a5 .P2,#a4 .E2,#a7 .W2{
     margin-bottom: 80px;
   }
 
