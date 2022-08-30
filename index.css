@@ -229,6 +229,53 @@ margin-bottom: -20px;
 
 /* Project end*/
 
+/* Coding Area start*/
+#a6{
+  background-image: url(Images/Img15.jpg);
+  background-size: cover;
+  display: grid;
+}
+
+#a6 .C1{
+  font-size: 60px;
+  position:static;
+  top:5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: rgb(244, 249, 207);
+  border-radius: 20px;
+  padding-right: 20px;
+  border: solid 5px #212121;
+  box-shadow: 6px 6px #d1c376 ;
+  width: 600px;
+}
+
+#a6 .C1 img{
+height: 90px;
+margin-bottom: -20px;
+}
+
+#a6 .C2{
+  top: 50px;
+  margin: 25px;
+  margin-bottom: 130px;
+}
+
+.c12 img{
+  width: 80%;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.c12:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+/* Coding Area end*/
+
+
 /*Work Exp Start*/
 #a7{
   background-image: url(Images/Img11.jpg);
@@ -353,13 +400,17 @@ margin-bottom: -30px;
     color: #2599c8;
   }
 
-  #a5 .P1,#a4 .E1,#a7 .W1{
+  #a5 .P1,#a4 .E1,#a7 .W1,#a6 .C1{
     width: 350px;
     font-size: 50px;
     padding: 0px;
   }
-  #a5 .P2,#a4 .E2,#a7 .W2{
+  #a5 .P2,#a4 .E2,#a7 .W2,#a6 .C2{
     margin-bottom: 80px;
+  }
+
+  .c12 img{
+    width: 30%;
   }
 
 }
